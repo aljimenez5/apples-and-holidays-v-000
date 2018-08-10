@@ -99,7 +99,7 @@ def all_holidays_with_bbq(holiday_hash)
     celeb_hash.collect do |celeb, supplies| 
       supplies.collect do |supply|
         if supply == "BBQ"
-          return celeb
+          celeb
         end
       end     
     end
